@@ -19,7 +19,13 @@
             }
         }
     }
-
+    
+    @media (max-width: 1024px) {
+        &__infos {
+            gap: 16px;
+        }
+    }
+    
     @media (max-width: 640px) {
         display: block;
 
@@ -32,9 +38,4 @@
         }
     }
 
-    @media (max-width: 1024px) {
-        &__infos {
-            gap: 16px;
-        }
-    }
 }
